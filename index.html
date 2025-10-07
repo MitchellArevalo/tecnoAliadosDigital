@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa Tech - Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">Tecno Aliados Digital</div>
+    <ul class="navbar-menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#bienvenida">Bienvenida</a></li>
+      <li><a href="#descripcion">¿Quiénes somos?</a></li>
+      <li><a href="#servicios">Lista de servicios</a></li>
+      <li class="dropdown">
+        <a href="#">Más</a>
+        <ul class="dropdown-menu">
+          <li><a href="#reservas">Reservas</a></li>
+          <li><a href="#contacto">Contáctenos</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <section class="slider" id="slider">
+    <div class="slide active">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80" alt="Tecnología 1">
+      <div class="slide-info">
+        <h2>Soluciones tecnológicas <br>innovadoras</h2>
+        <h4>Soluciones tecnologicas a tu alcance</h4>
+        <button>Ver más</button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80" alt="Tecnología 2">
+      <div class="slide-info">
+        <h2>Descubre nuestros <br>servicios digitales</h2>
+        <h4>Soluciones tecnologicas a tu alcance</h4>
+        <button>Ver más</button>
+      </div>
+    </div>
+    <button class="slider-btn prev">&#10094;</button>
+    <button class="slider-btn next">&#10095;</button>
+  </section>
+  <section class="descripcion" id="descripcion">
+    <h2>¿Quiénes somos?</h2>
+    <p>En <strong>Tecno Aliados Digital</strong> somos tu aliado estratégico en soluciones tecnológicas, brindando innovación y excelencia para transformar tu empresa.</p>
+  </section>
+  <section class="servicios" id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicios-list" id="servicios-list">
+      <!-- JS renderiza aquí las tarjetas de servicios -->
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <!-- Izquierda -->
+      <div class="footer-left">
+        <h2>Tecno Aliados Digital</h2>
+        <p>+57 315 686 0026</p>
+        <p>tencosolutions@outlook.com</p>
+        <p>Cra 43A #1Sur-50</p>
+        <p>Cross Business Center</p>
+        <p>Medellín, CO</p>
+
+        <div class="social-icons">
+          <a href="#">🌐</a>
+          <a href="#">📷</a>
+          <a href="#">🎵</a>
+          <a href="#">👍</a>
+        </div>
+      </div>
+
+      <!-- Derecha -->
+      <div class="footer-right">
+        <ul>
+          <li><a href="#">Política de Privacidad</a></li>
+          <li><a href="#">Declaración de Accesibilidad</a></li>
+          <li><a href="#">Términos y Condiciones</a></li>
+          <li><a href="#">Trabaje con Nosotros</a></li>
+          <li><a href="#">Política de Reembolso</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      © 2025 by Tenco Aliados Digital.
+    </div>
+  </footer>
+
+  <!-- Botón flotante -->
+  <a href="#" class="chat-btn">💬 ¡Vamos a chatear!</a>
+  <script src="app.js"></script>
+</body>
+</html>

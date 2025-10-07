@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Administrador</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="admin-layout">
+    <aside class="admin-menu">
+      <h2>Admin</h2>
+      <ul>
+        <li><a href="#dashboard" id="dashboard-link">Dashboard</a></li>
+        <li><a href="#usuarios" id="usuarios-link">Usuarios</a></li>
+        <li><a href="#servicios" id="servicios-link">Servicios</a>
+          <ul>
+            <li><a href="#crear-servicio" id="crear-servicio-link">Crear servicio</a></li>
+            <li><a href="#listar-servicios" id="listar-servicios-link">Listar servicios</a></li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+    <main class="admin-content" id="admin-content">
+      <!-- JS renderiza aquí el contenido dinámico del panel -->
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
